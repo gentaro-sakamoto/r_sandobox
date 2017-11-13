@@ -36,3 +36,6 @@ list <- list(
 for (v in list) {
   print(paste(v,class(v), sep=':'))
 }
+
+# What is the difference between vector and list?
+# TBA
