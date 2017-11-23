@@ -27,7 +27,7 @@ TotalSleep.std <- scale(TotalSleep)
 # LifeSpan.log is response variable
 # TotalSleep.std and BodyWt.log.std are Exlanatory variables
 m <- lm(LifeSpan.log ~ TotalSleep.std + BodyWt.log.std)
-summary(m)
+str(summary(m))
 
 par(mfrow = c(1, 2))
 plot(LifeSpan.log, BodyWt.log.std, ylim = c(-3, 3))
